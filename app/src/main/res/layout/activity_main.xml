@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/asking_layout"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:fontFamily="sans-serif"
+        android:text="Choose Your Symbol"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/asking_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#000000">
+
+        <Button
+            android:id="@+id/zero_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ticTacToeButtonStyle"
+            android:text="O" />
+
+        <Button
+            android:id="@+id/cross_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ticTacToeButtonStyle"
+            android:text="X" />
+
+    </LinearLayout>
+
+</RelativeLayout>

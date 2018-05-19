@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button android:id="@+id/button_1"
+            style="@style/ticTacToeButtonStyle"/>
+
+        <Button android:id="@+id/button_2"
+            style="@style/ticTacToeButtonStyle"/>
+
+        <Button android:id="@+id/button_3"
+            style="@style/ticTacToeButtonStyle"/>
+
+        <Button android:id="@+id/button_4"
+            style="@style/ticTacToeButtonStyle"/>
+
+        <Button android:id="@+id/button_5"
+            style="@style/ticTacToeButtonStyle"/>
+
+        <Button android:id="@+id/button_6"
+            style="@style/ticTacToeButtonStyle"/>
+
+        <Button android:id="@+id/button_7"
+            style="@style/ticTacToeButtonStyle"/>
+
+        <Button android:id="@+id/button_8"
+            style="@style/ticTacToeButtonStyle"/>
+
+        <Button android:id="@+id/button_9"
+            style="@style/ticTacToeButtonStyle"/>
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        style="@style/ticTacToeButtonStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:onClick="resetFunction"/>
+
+</RelativeLayout>
