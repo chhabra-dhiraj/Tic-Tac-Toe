@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 temp = symbol;
                 Intent mainScreenIntent = new Intent(MainActivity.this, MainScreen.class);
                 startActivity(mainScreenIntent);
+                finish();
             }
         });
 
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 temp = symbol;
                 Intent mainScreenIntent = new Intent(MainActivity.this, MainScreen.class);
                 startActivity(mainScreenIntent);
+                finish();
             }
         });
     }
